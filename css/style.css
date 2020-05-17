@@ -36,3 +36,36 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+body{
+	   width: 1020px;
+	   height: 1732px;
+}
+
+.nav{
+		margin-bottom: 50px;
+	   display: block;
+		background-color: #323232;
+		height: 63px;		
+		background-image: url(../img/icon/bg2.jpg);
+		background-position: 445px -130px;
+		background-size:120px 200px;
+		background-repeat: no-repeat;
+		
+}
+
+.nav-box{
+	display: flex;
+	justify-content: center;
+}
+
+.nav-link{
+	color: #a6a6a6;
+	text-transform: uppercase;
+	line-height: 63px;
+	padding: 0 15px;
+	
+	
+	
+}
+
+
