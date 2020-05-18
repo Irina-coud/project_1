@@ -42,12 +42,12 @@ body{
 }
 
 .nav{
-		margin-bottom: 50px;
+		
 	   display: block;
 		background-color: #323232;
 		height: 63px;		
 		background-image: url(../img/icon/bg2.jpg);
-		background-position: 445px -130px;
+		background-position: 446px -100px;
 		background-size:120px 200px;
 		background-repeat: no-repeat;
 		
@@ -63,9 +63,30 @@ body{
 	text-transform: uppercase;
 	line-height: 63px;
 	padding: 0 15px;
-	
-	
-	
+	}
+
+.portfolio-box{	
+	padding-bottom: 150px;
+	text-align: center;
+	background-color:#ffffff ;
+	background-image: url(../img/icon/Rectangle_2.png), url(../img/icon/Rectangle_2_copy.png),url(../img/icon/Rectangle_2_copy_2.png),url(../img/icon/Rectangle_2_copy_3.png),url(../img/icon/Rectangle_2_copy_4.png),url(../img/icon/Rectangle_2_copy_5.png);
+	background-repeat: no-repeat;
+	background-position: 30px 705px, 39px 705px, 48px 705px, 57px 705px, 66px 705px, 75px 705px;
 }
+
+.img1{
+	margin: 90px 8px 0 8px;
+}
+
+.portfolio-box2{
+	margin: -50px 0px;
+}
+.img2{
+	margin: 0px 8px;
+}
+.img3{
+	margin: 0px 8px;
+}
+
 
 
