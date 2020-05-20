@@ -36,6 +36,16 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+@font-face {
+	font-family: 'MavenProRegular';
+	src: url('../fonts/Maven Pro Regular.eot');
+	src: local('☺'), url('../fonts/Maven Pro Regular.woff') format('woff'), url('../fonts/Maven Pro Regular.ttf') format('truetype'), url('../fonts/Maven Pro Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
 
 
 .nav{
@@ -85,28 +95,71 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .img1{
-	margin: 90px 8px 0 8px;
-}
-
+	margin: 90px 8px 0 8px;}
 .portfolio-box2{
-	margin: -50px 0px;
-}
+	margin: -50px 0px;}
 .img2{
-	margin: 0px 8px;
-}
+	margin: 0px 8px;}
 .img3{
-	margin: 0px 8px;
-}
+	margin: 0px 8px;}
 .nav-logo{
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	bottom: 0px;
-	
-}
+	bottom: 0px;}
 .margin-logo{
-	margin-right: 50px;
-}
+	margin-right: 50px;}
 .color-portfolio{
-	color: #2f937f;
-}
+	color: #2f937f;}
+
+	.about-and-blog{
+		background-color: #2eb398;
+		display: block;
+		position: relative;
+	}
+	.about-img{
+		margin: 50px 500px 50px 335px;
+		
+	}
+	.about-text{
+		
+	}
+	.about-name{
+		font-family: 'MavenProRegular';
+		color: #d4fbf3;
+		font-size: 30px;
+      font-weight: 400;
+      line-height: 4.56px;
+		position: absolute;
+		left: 45%;
+		transform: translateX(-55%);
+		top: 70px;
+	}
+	.about-profesion{
+		color: #20816d;
+      font-family: "Maven Pro Regular";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21.56px;
+		position: absolute;
+		left: 45%;
+		transform: translateX(-45%);
+		top: 85px;
+	}
+	.about-fish{
+		color: #d7fcf5;
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 21.56px;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-26%);
+		top: 120px;
+	}
+	.link-com{
+		display: inline-flex;
+		margin: 80px 200px 50px 50px;
+		
+
+	}
