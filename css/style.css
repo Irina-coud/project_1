@@ -159,7 +159,114 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	}
 	.link-com{
 		display: inline-flex;
-		margin: 80px 200px 50px 50px;
-		
+			
 
+	}
+
+.git{
+	background-color: #323232;
+	color: #d6d6d6;
+	height: 564px;
+	padding: 50px 0 0 335px;
+	position: relative;
+}
+
+.git-title{
+	color: #e0e0e0;
+font-family: "Maven Pro Regular";
+font-size: 30px;
+font-weight: 400;
+line-height: 4.56px;
+margin-bottom: 10px;
+}
+
+.git-title2{
+	color: #bebebe;
+font-family: "Maven Pro Regular";
+font-size: 18px;
+font-weight: 400;
+line-height: 21.56px;
+}
+ 
+.git-name{
+	width: 580px;
+height: 38px;
+background-color: #454545;
+color: #bebebe;
+font-family: Lato;
+font-size: 12px;
+font-weight: 400;
+line-height: 21.56px;
+
+}
+.git-margin{
+	margin-bottom: 10px;
+}
+.git-area{
+	width: 580px;
+   height: 150px;
+}
+.git-sub{
+	background-color: #2eb398;
+	width: 90px;
+	height: 37px;
+	margin: 0 100px 0 490px;
+	font-family: Lato;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 21.56px;
+	text-transform: uppercase;
+	color: #d7fcf5;
+	
+}
+.git-right{
+	position: absolute;
+	left: 60%;
+	transform: translateX(-10%);
+	bottom: 72%;
+	
+}
+.git-text{
+	
+	font-family: Lato;
+  font-size: 12px;  
+  font-weight: 900;
+  
+}
+.git-address{
+	position: relative;
+	margin-left: 30px;
+}
+
+.git-address:before{
+	content: url(../img/icon/location.png);
+	position: absolute;
+	right: 102%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.footer-end{
+		background-color: #222222;
+		color: #454545;
+      font-family: "Maven Pro Regular";
+      font-size: 12px;
+      font-weight: 400;
+		line-height: 6.32px;
+		height: 43px;
+		padding:20px 0 20px 40px;
 	}
