@@ -239,26 +239,16 @@ line-height: 21.56px;
 }
 
 .git-address:before{
-	content: url(../img/icon/location.png);
-	position: absolute;
-	right: 102%;
+	content: url(../img/icon/location.png);	
+	/*right: 102%;*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.git-tel:before{
+	content: url(../img/icon/phone.png);
+}
+.git-mail:before{
+	content: url(../img/icon/mail.png);
+}
 
 	.footer-end{
 		background-color: #222222;
