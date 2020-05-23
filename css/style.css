@@ -44,73 +44,102 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-style: normal;
 }
 
-
-
-
-
-.nav{
-		font-family: Lato;
-		font-weight: 700;
-		font-size: 10px;		
-		position: relative;
-	   display: block;
-		background-color: #323232;
-		height: 63px;		
-	
-		
-}
-.nav:after{
-	   content: "";
-      display: block;
-      width: 0px;
-      height: 0;
-      border: 20px solid transparent;
-		border-top-color: #323232;
-		position: absolute;
-		right: 50%;
-		transform: translateX(50%);
-		border-width: 25px 40px 0px 40px;	
+.header {
+	position: relative;
 }
 
-.nav-box{
+.wrapper {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.nav {
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 10px;			
+	display: block;
+	background-color: #323232;
+	height: 63px;				
+}
+
+.nav:after {
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #323232;
+	position: absolute;
+	right: 50%;
+	transform: translateX(50%);
+	border-width: 25px 40px 0px 40px;	
+}
+
+.nav-box {
 	display: flex;
 	justify-content: center;
 }
 
-.nav-link{
+.nav-link {
 	color: #a6a6a6;
 	text-transform: uppercase;
 	line-height: 63px;
 	padding: 0 15px;
-	
-	}
+}
 
-.portfolio-box{	
+.nav-link:hover {
+	color: #2f937f;
+}
+
+
+.portfolio-box {	
 	padding-bottom: 150px;
 	text-align: center;
 	background-color:#ffffff ;
-	background-image: url(../img/icon/Rectangle_2.png), url(../img/icon/Rectangle_2_copy.png),url(../img/icon/Rectangle_2_copy_2.png),url(../img/icon/Rectangle_2_copy_3.png),url(../img/icon/Rectangle_2_copy_4.png),url(../img/icon/Rectangle_2_copy_5.png);
-	background-repeat: no-repeat;
-	background-position: 30px 705px, 39px 705px, 48px 705px, 57px 705px, 66px 705px, 75px 705px;
+	padding-top: 90px;
+	
 }
 
-.img1{
-	margin: 90px 8px 0 8px;}
-.portfolio-box2{
-	margin: -50px 0px;}
-.img2{
-	margin: 0px 8px;}
-.img3{
-	margin: 0px 8px;}
-.nav-logo{
+.hexagon-row:not(:first-child) {
+	margin-top: -30px;
+}
+
+.hexagon-item {
+	margin: 0 8px;
+}
+
+.dots {
+	margin: 60px 0 0;
+} 
+
+.dots-items {
+	display: flex;
+}
+
+.dot {
+	display: inline-block;
+	background-color:#ddd2c5;
+	width: 6px;
+	height: 6px;
+	margin-right: 3px;
+}
+
+.dot:hover {
+	background-color: #8b8784;
+}
+
+
+
+.link-logo{
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 0px;}
 .margin-logo{
 	margin-right: 50px;}
-.color-portfolio{
-	color: #2f937f;}
+
 
 	.about-and-blog{
 		background-color: #2eb398;
@@ -121,9 +150,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		margin: 50px 500px 50px 335px;
 		
 	}
-	.about-text{
-		
-	}
+	
 	.about-name{
 		font-family: 'MavenProRegular';
 		color: #d4fbf3;
